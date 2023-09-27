@@ -32,7 +32,7 @@ export const promptForTeam = async(teams) => {
         );
       });
     },
-    pageSize: 10
+    pageSize: 30
   }]);
 
   return TEAM_ID;
